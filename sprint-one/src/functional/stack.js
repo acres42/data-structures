@@ -13,7 +13,6 @@ var Stack = function() {
 
   someInstance.pop = function() {
     var popped = storage[count];
-    console.log('popped', popped);
     delete storage[count];
     count--;
     return popped;
