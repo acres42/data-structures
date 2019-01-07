@@ -1,5 +1,5 @@
 var Stack = function() {
-  // this.someInstance = {};
+  this.someInstance = {};
   this.storage = {};
   this.stackSize = 0;
 };
